@@ -299,7 +299,7 @@ if [ $nomor = 3 ]
 then
 echo
 toilet -f future "BYPASS ADMIN" | lolcat
-echo $white "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo - e $white "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Inurl:login[4admin] site:
 Inurl:admin [Userlogin]**site:
 inurl:/admin.php intext:login intext:adminsitrator
@@ -343,7 +343,7 @@ echo
 echo
 if [ $nomor = 2 ]
 then
-figlet -f banner --gay "SHELL"
+figlet -f banner "SHELL" |lolcat
 echo "intext:Uploader by #1 SMP
 inurl:.php?filesrc=
 intitle:IndoXploit filetype:php
@@ -967,7 +967,7 @@ fi
 if [ $nomor = 9 ]
 then
 figlet -f banner "WEB VULN" | lolcat
-echo $green"==================================="
+echo - e $green"==================================="
 echo
 echo "http://africaprop.co.za/
 http://www.alfunctiondesigns.co.za/
