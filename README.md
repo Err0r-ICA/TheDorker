@@ -11,4 +11,4 @@ git clone https://github.com/Err0r-ICA/TheDorker
 cd TheDorker
 chmod +x *
 ```
-### Main Input: bash Dork.sh
+### Main Input: bash Dork
